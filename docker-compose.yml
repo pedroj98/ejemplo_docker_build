@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   web:
-    image: pchico83/ci
+    image: pedroj98/ejemplo_docker_build
     build: .
     depends_on:
       - redis
